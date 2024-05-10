@@ -16,10 +16,10 @@
   <body>
     <main class="container">
       <section class="container">
-        <figure class="container__img">
-          <img class="container__img--1" src="src/images/image-product-mobile.jpg" alt="" />
-          <img class="container__img--2" src="src/images/image-product-desktop.jpg" alt=""/>
-        </figure>
+        <picture class="container__img">
+          <source media="(min-width: 1024px)" srcset="./src/images/image-product-desktop.jpg">
+          <img class="container__img--1" src="./src/images/image-product-mobile.jpg" alt="product preview image">
+        </picture>
         <div class="container__data">
           <div class="container__data--text">
             <span>PERFUME</span>
